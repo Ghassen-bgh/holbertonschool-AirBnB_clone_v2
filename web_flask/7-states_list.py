@@ -5,6 +5,7 @@ script that starts a Flask web application
 
 from flask import Flask, render_template
 from models import storage
+from models import *
 
 @app.route('/states_list', strict_slashes=False)
 def states_list():
