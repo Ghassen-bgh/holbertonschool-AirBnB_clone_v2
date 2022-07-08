@@ -7,6 +7,7 @@ from flask import Flask, render_template
 from models import storage
 from models import *
 
+
 @app.route('/states_list', strict_slashes=False)
 def states_list():
     """ display a HTML page with the states listed alphabetically """
